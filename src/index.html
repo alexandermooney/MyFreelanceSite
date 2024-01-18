@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/output.css">
+</head>
+<body class="text-gray-600 overflow-x-clip sm:text-lg font-custom">
+    <header class="h-16 w-full absolute top-0 left-0 z-30">
+        <div class="container flex justify-between mx-auto p-4 text-white">
+            <div>
+                <span class="font-bold text-3xl">AM</span>
+            </div>
+            <nav class="" role="navigation" aria-label="Main Menu">
+                <ul id="nav-container" class="flex flex-col md:flex-row justify-start items-end gap-8 w-3/5 h-screen md:h-auto pt-36 md:pt-0 pr-8 md:pr-0 text-2xl md:text-lg absolute md:static top-0 right-0 z-40 scale-x-0 md:scale-x-100 bg-gradient-to-b from-gray-50 via-gray-200 via-80% to-transparent md:bg-none text-gray-950 md:text-white origin-right transition-all md:transition-none">
+                    <li><a class="text-blue-500 md:text-white border-r-4 md:border-r-0 md:border-b-2 md:hover:border-b-4 pr-4 md:pr-0 md:pb-1 border-blue-500 md:border-white md:transition-all md:origin-left" href="">Home</a></li>
+                    <li><a class="md:hover:border-b-4 md:pb-1 md:transition-all md:origin-left" href="#aboutUs">About</a></li>
+                    <li><a class="md:hover:border-b-4 md:pb-1 md:transition-all md:origin-left" href="#info">Services</a></li>
+                    <li><a class="md:hover:border-b-4 md:pb-1 md:transition-all md:origin-left" href="">Portfolio</a></li>
+                    <li><a class="md:hover:border-b-4 md:pb-1 md:transition-all md:origin-left" href="#pricing">Contact</a></li>
+                </ul>
+                <div id="nav-hamburger" aria-expanded="false" class="group flex flex-col justify-between md:hidden w-8 h-8 p-1.5 absolute top-4 right-4 z-50  transition-all cursor-pointer">
+                    <div class="h-0.5 bg-white group-hover:bg-blue-100 rounded transition-all"></div>
+                    <div class="h-0.5 bg-white group-hover:bg-blue-100 rounded transition-all"></div>
+                    <div class="h-0.5 bg-white group-hover:bg-blue-100 rounded transition-all"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="hero" class="bg-gradient-to-b from-blue-800 to-blue-500 pt-20 max-[420px]:mb-32 mb-16 sm:mb-32 md:mb-48 relative overflow-x-clip">
+            <div class="container text-white mt-12 pt-4 px-8 pb-28 sm:pb-36 md:pb-48 mx-auto md:relative">
+                <h1 class="mb-4 max-w-96 sm:max-w-full md:max-w-[432px] 2xl:max-w-[540px] text-4xl sm:text-5xl 2xl:text-6xl font-bold tracking-tighter fadeInLeft duration-1000">Beyond WordPress & Page Builders</h1>
+                <p class="mb-8 max-w-96 2xl:text-lg fadeInLeft">We deliver custom, hand-coded websites that outperform WordPress and page builders - starting at $150/month.</p>
+                <a href="#aboutUs" class="inline-block py-3 px-6 bg-white hover:bg-blue-100 text-blue-500 tracking-wider shadow-md shadow-blue-900 relative z-20 transition-all">Learn More</a>
+                <img class="max-w-[414px] sm:max-w-none sm:w-[600px] md:w-[800px] lg:w-[900px] xl:w-[1200px] absolute max-[420px]:-bottom-32 -bottom-12 sm:-bottom-32 md:-bottom-44 lg:-bottom-32 xl:-bottom-44 max-[420px]:right-0 max-[420px]:left-0 max-[420px]:mx-auto -right-28 min-[510px]:right-0 sm:-right-12 md:-right-20 lg:-right-52 xl:-right-44 z-10" src="images/mockup.webp" alt="A mockup of a website on a phone, laptop and tablet." srcset="">
+            </div>
+            <div class="custom-shape-divider-bottom-1705503576">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+                </svg>
+            </div>
+        </section>
+
+        <section id="aboutUs" class="container flex flex-col gap-16 sm:gap-24 px-8 mx-auto mb-16 sm:mb-24 text-center relative">
+            <header class="flex flex-col items-center gap-4 sm:gap-8">
+                <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 uppercase tracking-tight"><span class="text-blue-500">What</span> we do</h2>
+                <p class="max-w-[500px] lg:max-w-[650px]">We excel in crafting custom-designed, hand-coded websites for small businesses anywhere in the US. We offer a level of optimization and performance that isn't possible with page builders like Wix and Squarespace. Our websites bring superior results that will drive more customers to your website, and more revenue for your business.</p>
+            </header>
+            <div class="flex flex-col md:flex-row md:justify-center items-center gap-8">
+                <div class="flex flex-col items-center gap-4 w-[300px]">
+                    <div class="shrink-0">
+                        <img class="w-8 h-8" src="images/bolt-solid.svg" alt="">
+                    </div>
+                    <h3 class="font-bold text-lg sm:text-xl text-gray-900">Fast Load Times</h3>
+                    <p>Our websites are built with speed in mind, ensuring fast load times and lower bounce rates.</p>
+                    <a class="flex items-center gap-2 text-sm sm:text-base text-gray-400 hover:text-gray-300 tracking-wider hover:tracking-widest btn-arrow transition-all" href="#">Learn More</a>
+                </div>
+                <div class="flex flex-col items-center gap-4 w-[300px]">
+                    <div class="shrink-0">
+                        <img class="w-8 h-8" src="images/magnifying-glass-solid.svg" alt="">
+                    </div>
+                    <h3 class="font-bold text-lg sm:text-xl text-gray-900">SEO Optimized</h3>
+                    <p>Our websites are optimized for search engines so your website is seen by more potential customers.</p>
+                    <a class="flex items-center gap-2 text-sm sm:text-base text-gray-400 hover:text-gray-300 tracking-wider hover:tracking-widest btn-arrow transition-all" href="#">Learn More</a>
+                </div>
+                <div class="flex flex-col items-center gap-4 w-[300px]">
+                    <div class="shrink-0">
+                        <img class="w-8 h-8" src="images/mobile-screen-button-solid.svg" alt="">
+                    </div>
+                    <h3 class="font-bold text-lg sm:text-xl text-gray-900">Responsive Designs</h3>
+                    <p>Our websites are built with a mobile-first responsive design that looks great on every device and screen size.</p>
+                    <a class="flex items-center gap-2 text-sm sm:text-base text-gray-400 hover:text-gray-300 tracking-wider hover:tracking-widest btn-arrow transition-all" href="#">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="benefits" class="container flex flex-col items-center md:items-start gap-8 sm:gap-16 px-8 mb-16 sm:mb-24 mx-auto">
+            <div class="flex flex-col lg:flex-row gap-8 sm:gap-16 justify-start 2xl:justify-center items-center lg:items-start">
+                <div class="lg:basis-1/3">
+                    <img class="max-w-[75%] md:max-w-[50%] lg:max-w-full mx-auto" src="images/happy-person.webp" alt="A smiling person sitting at a desk browsing a website.">
+                </div>
+                <div class="flex flex-col gap-4 sm:gap-8 lg:basis-2/3">
+                    <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 center">Page builders are great, <span class="italic">until they're not.</span></h2>
+                    <p class="lg:max-w-[600px]">Your website is often the first impression you get with your potential customers. Here are just a few advantages of a professionally built website compared to a website built from a page builder:</p>
+                </div>
+            </div>
+            <div class="flex flex-col gap-16 md:basis-1/2">
+                <div class="flex flex-col lg:grid lg:grid-cols-2 gap-8">
+                    <div class="flex flex-col gap-4">
+                        <h3 class="font-bold text-lg sm:text-xl text-gray-900">Clean and professional design</h3>
+                        <p>Let's face it. It's easy to spot a website built with a page builder. They often look and feel janky. This can lead to a frustrating experience for your customers. A custom website offers a seamless and enjoyable experience that leaves your customers feeling great.</p>
+                    </div>
+                    <div class="flex flex-col gap-4">
+                        <h3 class="font-bold text-lg sm:text-xl text-gray-900">Responsive at all screen sizes</h3>
+                        <p>Page builders don't respond well to different screen sizes. With our custom designs, your website is guaranteed to look amazing no matter what device your customers are browsing on.</p>
+                    </div>
+                    <div class="flex flex-col gap-4">
+                        <h3 class="font-bold text-lg sm:text-xl text-gray-900">Better search engine rankings</h3>
+                        <p>Custom-built websites outperform page builders on search engine optimization, which means more customers at your doorstep.</p>
+                    </div>
+                    <div class="flex flex-col gap-4">
+                        <h3 class="font-bold text-lg sm:text-xl text-gray-900">Higher conversion rate</h3>
+                        <p>Shorter load times, better search engine optimization, accessibility and a professionally designed website all lead to higher conversion rates. How much is each additional customer worth to your business? Custom websites that drive more revenue can pay for themselves.</p>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <section id="info" class="container flex flex-col md:flex-row items-center gap-8 sm:gap-16 px-8 mb-16 sm:mb-24 mx-auto">
+            <div class="max-w-[75%] md:basis-[40%] md:order-2 md:mb-48 lg:mb-0">
+                <img src="images/chart.webp" alt="">
+            </div>
+            <div class="flex flex-col gap-8 sm:gap-16 md:basis-[60%] md:order-1">
+                <div class="flex flex-col gap-4 sm:gap-8">
+                    <h2 class="text-3xl sm:text-4xl font-bold text-blue-500">$0 Down. $150/mo</h2>
+                    <p>No need to drop thousands of dollars all at once for your website. With our 12-month payment plan, you can get results now and pay later.</p>
+                </div>
+                <div class="flex flex-col gap-4 sm:gap-8">
+                    <h3 class="text-lg sm:text-xl font-bold text-gray-900">What's Included?</h3>
+                    <div class="flex flex-col lg:grid lg:grid-cols-2 gap-4">
+                        <div class="flex flex-row gap-4">
+                            <div class="shrink-0">
+                                <img class="w-8 h-8" src="images/check-solid.svg" alt="">
+                            </div>
+                            <div class="flex flex-col gap-2">
+                                <h4 class="pt-1 font-bold text-gray-900">Free Web Hosting</h4>
+                                <p>Hosting costs are integrated into your monthly payment.</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-row gap-4">
+                            <div class="shrink-0">
+                                <img class="w-8 h-8" src="images/check-solid.svg" alt="">
+                            </div>
+                            <div class="flex flex-col gap-2">
+                                <h4 class="pt-1 font-bold text-gray-900">You Own Your Domain</h4>
+                                <p>Retain complete control and ownership over your website domain.</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-row gap-4">
+                            <div class="shrink-0">
+                                <img class="w-8 h-8" src="images/check-solid.svg" alt="">
+                            </div>
+                            <div class="flex flex-col gap-2">
+                                <h4 class="pt-1 font-bold text-gray-900">Unlimited Page Edits</h4>
+                                <p>Enjoy the liberty to modify content whenever you like, with fast, same-day updates.</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-row gap-4">
+                            <div class="shrink-0">
+                                <img class="w-8 h-8" src="images/check-solid.svg" alt="">
+                            </div>
+                            <div class="flex flex-col gap-2">
+                                <h4 class="pt-1 font-bold text-gray-900">24/7 Support</h4>
+                                <p>Our support ensures you speak to a real person immediately, without the hassle of automated menus.</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-row gap-4">
+                            <div class="shrink-0">
+                                <img class="w-8 h-8" src="images/check-solid.svg" alt="">
+                            </div>
+                            <div class="flex flex-col gap-2">
+                                <h4 class="pt-1 font-bold text-gray-900">Web Design and Development</h4>
+                                <p>We design, develop and test your website to ensure it performs at the highest standards.</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-row gap-4">
+                            <div class="shrink-0">
+                                <img class="w-8 h-8" src="images/check-solid.svg" alt="">
+                            </div>
+                            <div class="flex flex-col gap-2">
+                                <h4 class="pt-1 font-bold text-gray-900">Google Analytics</h4>
+                                <p>Analytics is installed by us for free, giving you insights into your traffic sources.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing" class="container px-8 mb-16 mx-auto">
+            <div class="flex flex-col md:flex-row md:justify-center gap-8 items-center">
+                <div class="w-full max-w-[325px] md:min-h-[550px] border-2 border-solid border-blue-200 bg-white rounded shadow-lg shadow-gray-300 md:relative">
+                    <div class="py-4 text-center font-bold border-b-2 border-blue-200 bg-blue-100">
+                        <h4 class="text-gray-900 font-bold">Standard</h4>
+                    </div>
+                    <div class="flex flex-col justify-center items-center gap-8 py-8">
+                        <div class="flex flex-col gap-2 items-center">
+                            <p class="uppercase">Flat Rate</p>
+                            <p class="uppercase text-6xl sm:text-7xl text-blue-500"><span class="align-super text-2xl sm:text-3xl">$</span>150<span class="text-2xl sm:text-3xl">/mo</span></p>
+                        </div>
+                        <ul class="flex flex-col gap-2 text-start text-sm list-image-[url(../images/check-solid.svg)]">
+                            <li>5 Pages</li>
+                            <li>Unlimited Content Edits</li>
+                            <li>Site Hosting</li>
+                            <li>Google Analytics</li>
+                            <li>24/7 Support</li>
+                            <li>Lifetime Updates</li>
+                        </ul>
+                        <a class="px-6 py-3 bg-blue-500 hover:bg-blue-400 text-white text-sm sm:text-base tracking-widest shadow-md shadow-gray-300 uppercase rounded transition-all md:absolute md:bottom-8" href="contact.html">Contact Us</a>
+                    </div>
+                </div>
+                <div class="w-full max-w-[325px] md:min-h-[550px] border-2 border-solid border-blue-200 bg-white rounded shadow-lg shadow-gray-300 md:relative">
+                    <div class="py-4 text-center font-bold border-b-2 border-blue-200 bg-blue-100">
+                        <h4 class="text-gray-900 font-bold">Flexible</h4>
+                    </div>
+                    <div class="flex flex-col justify-center items-center gap-8 py-8">
+                        <div class="flex flex-col gap-2 items-center">
+                            <p class="uppercase">Starting At</p>
+                            <p class="uppercase text-6xl sm:text-7xl text-blue-500"><span class="align-super text-2xl sm:text-3xl">$</span>180<span class="text-2xl sm:text-3xl">/mo</span></p>
+                        </div>
+                        <ul class="flex flex-col gap-2 text-start text-sm list-image-[url(../images/check-solid.svg)]">
+                            <li>More Pages</li>
+                            <li>Unlimited Content Edits</li>
+                            <li>Google Analytics</li>
+                            <li>Site Hosting</li>
+                            <li>24/7 Support</li>
+                            <li>Lifetime Updates</li>
+                            <li>Special Features & Integrations</li>
+                        </ul>
+                        <a class="px-6 py-3 bg-blue-500 hover:bg-blue-400 text-white text-sm sm:text-base tracking-widest shadow-md shadow-gray-300 uppercase rounded transition-all md:absolute md:bottom-8" href="contact.html">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="pt-[100px] text-white bg-gradient-to-t from-blue-800 to-blue-500 relative">
+            <div class="custom-shape-divider-top-1705503214">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+                </svg>
+            </div>
+            <div class="container flex flex-col gap-8 px-8 mx-auto">
+                <div>
+                    <span class="font-bold text-3xl sm:text-4xl">AM</span>
+                </div>
+                <div class="flex flex-col gap-2">
+                    <p>alexmooneydev@gmail.com</p>
+                    <p>(678) 899-8887</p>
+                </div>
+                <nav class="flex flex-col gap-4">
+                    <h4 class="text-2xl sm:text-3xl font-bold">Navigation</h4>
+                    <div class="w-40 border-b-2 border-blue-200 border-opacity-25"></div>
+                    <ul class="flex flex-col gap-2">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#aboutUs">About</a></li>
+                        <li><a href="#info">Services</a></li>
+                        <li><a href="">Portfolio</a></li>
+                        <li><a href="#pricing">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="bg-black bg-opacity-10 mt-8">
+                <div class="container p-8 mx-auto">
+                    <p class="text-center text-sm sm:text-base">© 2024 Alex Mooney. All Rights Reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
