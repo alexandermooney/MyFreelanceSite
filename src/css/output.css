@@ -792,6 +792,10 @@ div[aria-expanded="true"]:hover div:last-child {
   width: 300px;
 }
 
+.w-\[75\%\] {
+  width: 75%;
+}
+
 .w-full {
   width: 100%;
 }
@@ -810,10 +814,6 @@ div[aria-expanded="true"]:hover div:last-child {
 
 .max-w-\[500px\] {
   max-width: 500px;
-}
-
-.max-w-\[75\%\] {
-  max-width: 75%;
 }
 
 .shrink-0 {
@@ -836,10 +836,6 @@ div[aria-expanded="true"]:hover div:last-child {
 
 .cursor-pointer {
   cursor: pointer;
-}
-
-.list-image-\[url\(\.\.\/images\/check-solid\.svg\)\] {
-  list-style-image: url(../images/check-solid.svg);
 }
 
 .flex-row {
@@ -1062,10 +1058,6 @@ div[aria-expanded="true"]:hover div:last-child {
   text-align: center;
 }
 
-.text-start {
-  text-align: start;
-}
-
 .align-super {
   vertical-align: super;
 }
@@ -1098,6 +1090,10 @@ div[aria-expanded="true"]:hover div:last-child {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.font-black {
+  font-weight: 900;
 }
 
 .font-bold {
@@ -1404,16 +1400,16 @@ div[aria-expanded="true"]:hover div:last-child {
     min-height: 550px;
   }
 
+  .md\:w-\[50\%\] {
+    width: 50%;
+  }
+
   .md\:w-\[800px\] {
     width: 800px;
   }
 
   .md\:max-w-\[432px\] {
     max-width: 432px;
-  }
-
-  .md\:max-w-\[50\%\] {
-    max-width: 50%;
   }
 
   .md\:basis-1\/2 {
@@ -1528,16 +1524,16 @@ div[aria-expanded="true"]:hover div:last-child {
     width: 900px;
   }
 
+  .lg\:w-full {
+    width: 100%;
+  }
+
   .lg\:max-w-\[600px\] {
     max-width: 600px;
   }
 
   .lg\:max-w-\[650px\] {
     max-width: 650px;
-  }
-
-  .lg\:max-w-full {
-    max-width: 100%;
   }
 
   .lg\:basis-1\/3 {
