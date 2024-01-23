@@ -71,7 +71,7 @@
   .btn-arrow::after {
     content: "";
     @apply inline-block w-2 h-2 -mb-px bg-contain bg-no-repeat -rotate-90;
-    background-image: url("../images/arrow-gray.svg");
+    background-image: url("../images/icons/arrow-gray.svg");
   }
 }
 
