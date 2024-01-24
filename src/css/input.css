@@ -3,27 +3,27 @@
 @tailwind utilities;
 
 @layer components {
-  div[aria-expanded="true"] {
+  #nav-hamburger[aria-expanded="true"] {
     @apply border-transparent p-2;
   }
 
-  div[aria-expanded="true"] div:first-child {
+  #nav-hamburger[aria-expanded="true"] div:first-child {
     @apply rotate-45 translate-y-[7px] bg-black;
   }
 
-  div[aria-expanded="true"]:hover div:first-child {
+  #nav-hamburger[aria-expanded="true"]:hover div:first-child {
     @apply bg-gray-900;
   }
 
-  div[aria-expanded="true"] div:nth-child(2) {
+  #nav-hamburger[aria-expanded="true"] div:nth-child(2) {
     @apply opacity-0;
   }
 
-  div[aria-expanded="true"] div:last-child {
+  #nav-hamburger[aria-expanded="true"] div:last-child {
     @apply -rotate-45 -translate-y-[7px] bg-black;
   }
 
-  div[aria-expanded="true"]:hover div:last-child {
+  #nav-hamburger[aria-expanded="true"]:hover div:last-child {
     @apply bg-gray-900;
   }
 

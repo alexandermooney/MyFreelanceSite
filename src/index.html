@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Ruby Hill Web Design & Development</title>
-    <meta name="description" content="Discover top-tier, custom web design with Ruby Hill Web Design. Specializing in hand-coded websites that surpass WordPress and page builders, we offer fast, SEO-optimized, responsive designs starting at $150/month. Experience superior performance and elevated conversions for your small business. Contact us to transform your online presence today.">
+    <meta name="description" content="Discover top-tier, custom web design with Ruby Hill Web Design. Specializing in hand-coded websites that surpass WordPress and page builders, we offer fast, SEO-optimized, responsive designs starting at $150 per month. Experience superior performance and elevated conversions for your small business. Contact us to transform your online presence today.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./css/output.css">
 </head>
 <body class="text-gray-600 overflow-x-clip sm:text-lg font-custom">
+    <a href="#mainContent" class="opacity-0 focus:opacity-100 text-blue-600 bg-white absolute text-3xl -z-50 focus:z-50">Skip to main content</a>
     <header class="h-16 w-full absolute top-0 left-0 z-30">
         <div class="container flex justify-between mx-auto p-4 text-white">
             <div>
@@ -18,26 +19,26 @@
             </div>
             <nav class="" role="navigation" aria-label="Main Menu">
                 <ul id="nav-container" class="flex flex-col md:flex-row justify-start items-end gap-8 w-3/5 h-screen md:h-auto pt-36 md:pt-0 pr-8 md:pr-0 text-2xl md:text-lg absolute md:static top-0 right-0 z-40 scale-x-0 md:scale-x-100 bg-gradient-to-b from-gray-50 via-gray-200 via-80% to-transparent md:bg-none text-gray-950 md:text-white origin-right transition-all md:transition-none">
-                    <li><a class="text-blue-500 md:text-white border-r-4 md:border-r-0 md:border-b-2 md:hover:border-b-4 pr-4 md:pr-0 md:pb-1 border-blue-500 md:border-white md:transition-all md:origin-left" href="">Home</a></li>
+                    <li><a class="text-blue-600 md:text-white border-r-4 md:border-r-0 md:border-b-2 md:hover:border-b-4 pr-4 md:pr-0 md:pb-1 border-blue-600 md:border-white md:transition-all md:origin-left" href="">Home</a></li>
                     <li><a class="md:hover:border-b-4 md:pb-1 md:transition-all md:origin-left" href="#aboutUs">About</a></li>
                     <li><a class="md:hover:border-b-4 md:pb-1 md:transition-all md:origin-left" href="#info">Services</a></li>
                     <li><a class="md:hover:border-b-4 md:pb-1 md:transition-all md:origin-left" href="">Portfolio</a></li>
                     <li><a class="md:hover:border-b-4 md:pb-1 md:transition-all md:origin-left" href="#pricing">Contact</a></li>
                 </ul>
-                <div id="nav-hamburger" aria-expanded="false" class="group flex flex-col justify-between md:hidden w-8 h-8 p-1.5 absolute top-4 right-4 z-50  transition-all cursor-pointer">
+                <button id="nav-hamburger" aria-expanded="false" aria-controls="nav-container" aria-label="Menu" class="group flex flex-col justify-between md:hidden w-8 h-8 p-1.5 absolute top-4 right-4 z-50  transition-all cursor-pointer">
                     <div class="h-0.5 bg-white group-hover:bg-blue-100 rounded transition-all"></div>
                     <div class="h-0.5 bg-white group-hover:bg-blue-100 rounded transition-all"></div>
                     <div class="h-0.5 bg-white group-hover:bg-blue-100 rounded transition-all"></div>
-                </div>
+                </button>
             </nav>
         </div>
     </header>
-    <main>
+    <main id="mainContent">
         <section id="hero" class="bg-gradient-to-b from-blue-800 to-blue-500 pt-20 max-[420px]:mb-32 mb-16 sm:mb-32 md:mb-48 relative overflow-x-clip">
             <div class="container text-white max-[420px]:mt-0 mt-12 pt-4 px-8 pb-28 sm:pb-36 md:pb-48 mx-auto md:relative">
                 <h1 class="mb-4 max-w-96 sm:max-w-full md:max-w-[432px] 2xl:max-w-[540px] text-4xl sm:text-5xl 2xl:text-6xl font-bold opacity-0 tracking-tighter fadeInLeft duration-1000">Beyond WordPress & Page Builders</h1>
-                <p class="mb-8 max-w-96 2xl:text-lg opacity-0 fadeInLeft">We deliver custom, hand-coded websites that outperform WordPress and page builders - starting at $150/month.</p>
-                <a href="#aboutUs" class="inline-block py-3 px-6 bg-white hover:bg-blue-100 text-blue-500 tracking-wider shadow-md shadow-blue-900 relative z-20 transition-all">Learn More</a>
+                <p class="mb-8 max-w-96 2xl:text-lg opacity-0 fadeInLeft">We deliver custom, hand-coded websites that outperform WordPress and page builders - starting at $150 per month.</p>
+                <a href="#aboutUs" class="inline-block py-3 px-6 bg-white hover:bg-blue-100 text-blue-600 tracking-wider shadow-md shadow-blue-900 relative z-20 transition-all">Learn More</a>
                 <img class="max-w-[414px] sm:max-w-none sm:w-[600px] md:w-[800px] lg:w-[900px] xl:w-[1200px] absolute max-[420px]:-bottom-32 -bottom-12 sm:-bottom-32 md:-bottom-44 lg:-bottom-32 xl:-bottom-44 max-[420px]:right-0 max-[420px]:left-0 max-[420px]:mx-auto -right-28 min-[510px]:right-0 sm:-right-12 md:-right-20 lg:-right-52 xl:-right-44 z-10" fetchpriority="high" src="images/mockup-xl.webp" alt="A mockup of a website on a phone, laptop and tablet." srcset="images/mockup-xl.webp 1200w, images/mockup-lg.webp 900w, images/mockup-md.webp 700w, images/mockup-sm.webp 600w, images/mockup-xs.webp 500w" sizes="100vw" width="1200" height="800">
             </div>
             <div class="custom-shape-divider-bottom-1705503576">
@@ -49,7 +50,7 @@
 
         <section id="aboutUs" class="container flex flex-col gap-16 sm:gap-24 px-8 mx-auto mb-16 sm:mb-24 text-center relative">
             <header class="flex flex-col items-center gap-4 sm:gap-8">
-                <h2 class="text-3xl sm:text-4xl font-black text-gray-900 uppercase tracking-tight"><span class="text-blue-500">What</span> we do</h2>
+                <h2 class="text-3xl sm:text-4xl font-black text-gray-900 uppercase tracking-tight"><span class="text-blue-600">What</span> we do</h2>
                 <p class="max-w-[500px] lg:max-w-[650px]">We excel in crafting custom-designed, hand-coded websites for small businesses anywhere in the US. We offer a level of optimization and performance that isn't possible with page builders like Wix and Squarespace. Our websites bring superior results that will drive more customers to your website, and more revenue for your business.</p>
             </header>
             <div class="flex flex-col md:flex-row md:justify-center items-center md:items-start gap-8">
@@ -59,7 +60,7 @@
                     </div>
                     <h3 class="font-bold text-lg sm:text-xl text-gray-900">Fast Load Times</h3>
                     <p>Our websites are built with speed in mind, ensuring fast load times and lower bounce rates.</p>
-                    <button class="flex items-center gap-2 text-sm sm:text-base text-gray-400 hover:text-gray-300 tracking-wider hover:tracking-widest btn-arrow transition-all" href="#">Learn More</button>
+                    <button class="flex items-center gap-2 text-sm sm:text-base text-gray-500 hover:text-gray-300 tracking-wider hover:tracking-widest btn-arrow transition-all" href="#">Learn More</button>
                 </div>
                 <div class="flex flex-col items-center gap-4 w-[300px]">
                     <div class="shrink-0">
@@ -67,7 +68,7 @@
                     </div>
                     <h3 class="font-bold text-lg sm:text-xl text-gray-900">Optimized for Search</h3>
                     <p>Our websites are optimized for search engines so your website is seen by more potential customers.</p>
-                    <button class="flex items-center gap-2 text-sm sm:text-base text-gray-400 hover:text-gray-300 tracking-wider hover:tracking-widest btn-arrow transition-all" href="#">Learn More</button>
+                    <button class="flex items-center gap-2 text-sm sm:text-base text-gray-500 hover:text-gray-300 tracking-wider hover:tracking-widest btn-arrow transition-all" href="#">Learn More</button>
                 </div>
                 <div class="flex flex-col items-center gap-4 w-[300px]">
                     <div class="shrink-0">
@@ -75,7 +76,7 @@
                     </div>
                     <h3 class="font-bold text-lg sm:text-xl text-gray-900">Responsive Designs</h3>
                     <p>Our websites are built with a mobile-first responsive design that looks great on every device and screen size.</p>
-                    <button class="flex items-center gap-2 text-sm sm:text-base text-gray-400 hover:text-gray-300 tracking-wider hover:tracking-widest btn-arrow transition-all" href="#">Learn More</button>
+                    <button class="flex items-center gap-2 text-sm sm:text-base text-gray-500 hover:text-gray-300 tracking-wider hover:tracking-widest btn-arrow transition-all" href="#">Learn More</button>
                 </div>
             </div>
         </section>
@@ -95,7 +96,7 @@
                          height="409">
                 </div>
                 <div class="flex flex-col gap-4 sm:gap-8 lg:basis-2/3">
-                    <h2 class="text-3xl sm:text-4xl font-black text-gray-900 center">Page builders are great — <span class="italic">until they're not.</span></h2>
+                    <h2 class="text-3xl sm:text-4xl font-black text-gray-900 center">Page builders are great — <em>until they're not.</em></h2>
                     <p class="lg:max-w-[600px]">Your website is often the first impression you get with your potential customers. Here are just a few advantages of a professionally built website compared to a website built from a page builder:</p>
                 </div>
             </div>
@@ -136,7 +137,7 @@
             </div>
             <div class="flex flex-col gap-8 sm:gap-16 md:basis-[60%] md:order-1">
                 <div class="flex flex-col gap-4 sm:gap-8">
-                    <h2 class="text-3xl sm:text-4xl font-black text-blue-500">$0 Down. $150/month</h2>
+                    <h2 class="text-3xl sm:text-4xl font-black text-blue-600">$0 Down. $150 per month</h2>
                     <p>No need to drop thousands of dollars all at once for your website. With our 12-month payment plan, you can get results now and pay later.</p>
                 </div>
                 <div class="flex flex-col gap-4 sm:gap-8">
@@ -210,7 +211,7 @@
                     <div class="flex flex-col justify-center items-center gap-8 py-8">
                         <div class="flex flex-col gap-2 items-center">
                             <p class="uppercase">Flat Rate</p>
-                            <p class="uppercase text-6xl sm:text-7xl text-blue-500"><span class="align-super text-2xl sm:text-3xl">$</span>150<span class="text-2xl sm:text-3xl">/mo</span></p>
+                            <p class="uppercase text-6xl sm:text-7xl text-blue-600"><span class="align-super text-2xl sm:text-3xl">$</span>150<span class="text-2xl sm:text-3xl">/mo</span></p>
                         </div>
                         <ul class="flex flex-col gap-2 items-center text-sm">
                             <li>5 Pages</li>
@@ -220,7 +221,7 @@
                             <li>24/7 Support</li>
                             <li>Lifetime Updates</li>
                         </ul>
-                        <a class="px-6 py-3 bg-blue-500 hover:bg-blue-400 text-white text-sm sm:text-base tracking-widest shadow-md shadow-gray-300 uppercase rounded transition-all md:absolute md:bottom-8" href="contact.html">Contact Us</a>
+                        <a class="px-6 py-3 bg-blue-600 hover:bg-blue-400 text-white text-sm sm:text-base tracking-widest shadow-md shadow-gray-300 uppercase rounded transition-all md:absolute md:bottom-8" href="contact.html">Contact Us</a>
                     </div>
                 </div>
                 <div class="w-full max-w-[325px] md:min-h-[550px] border-2 border-solid border-blue-200 bg-white rounded shadow-lg shadow-gray-300 md:relative">
@@ -230,7 +231,7 @@
                     <div class="flex flex-col justify-center items-center gap-8 py-8">
                         <div class="flex flex-col gap-2 items-center">
                             <p class="uppercase">Starting At</p>
-                            <p class="uppercase text-6xl sm:text-7xl text-blue-500"><span class="align-super text-2xl sm:text-3xl">$</span>180<span class="text-2xl sm:text-3xl">/mo</span></p>
+                            <p class="uppercase text-6xl sm:text-7xl text-blue-600"><span class="align-super text-2xl sm:text-3xl">$</span>180<span class="text-2xl sm:text-3xl">/mo</span></p>
                         </div>
                         <ul class="flex flex-col gap-2 items-center text-sm">
                             <li>More Pages</li>
@@ -241,7 +242,7 @@
                             <li>Lifetime Updates</li>
                             <li>Special Features & Integrations</li>
                         </ul>
-                        <a class="px-6 py-3 bg-blue-500 hover:bg-blue-400 text-white text-sm sm:text-base tracking-widest shadow-md shadow-gray-300 uppercase rounded transition-all md:absolute md:bottom-8" href="contact.html">Contact Us</a>
+                        <a class="px-6 py-3 bg-blue-600 hover:bg-blue-400 text-white text-sm sm:text-base tracking-widest shadow-md shadow-gray-300 uppercase rounded transition-all md:absolute md:bottom-8" href="contact.html">Contact Us</a>
                     </div>
                 </div>
             </div>
